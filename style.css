@@ -1,0 +1,123 @@
+body{
+    background-color:black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.profile-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.main-content{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center{
+    text-align: justify;
+}
+.social-icons{
+    margin: 30px 0;
+}
+
+.social-icons .twitter{
+   padding: 0 20px;
+}
+
+.about-me{
+    display: flex;
+    gap: 10%;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.about-title,
+.about-content{
+    width: 50%;
+}
+.chat-now{
+    display: flex;
+    align-items:center;
+    gap: 2%;
+}
+.text-center{
+    text-align: center;
+}
+.margin{
+    margin: 7px 0;
+}
+.one{
+    font-size: 50px;
+    font-weight: 900;
+}
+.design-par{
+    font-weight: 900;
+    font-size: 50px;
+}
+.design-par1{
+    font-weight: 900;
+    font-size: 40px;
+}
+.img-section{
+    display: flex;
+    justify-items: center;
+    gap: 5%;
+    margin-bottom: 10px;
+}
+.portfolio-section{
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.img-section img{
+    width: 250px;
+    height: 250px;
+    transition: all .5s ease;
+}
+.img-section img:hover{
+    transform: scale(1.1);
+}
+.button-section{
+    background: black;
+    border-width: 5px;
+    padding: 15px 70px;
+    margin-top: 35px;
+}
+.button-section p{
+    color: white;
+}
+.next-line{ 
+    display: flex; 
+    gap: 15%;
+    text-align: justify;
+}
+.next-input{
+    width: 50% ;
+    gap: 2%;
+}
+.call-section{
+  
+}
+.signature{
+    width:120px
+}
+
+.img2-section{
+    width: 240px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.last-line{
+    padding: 10px 90px;
+    color: white;
+}
+.lil{
+    font-weight: 30;
+    font-size: 11px;
+}
